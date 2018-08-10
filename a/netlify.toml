@@ -1,3 +1,4 @@
 [build]
   command = "mkdir -p dist && echo '<!doctype html><h1>Hello from A!</h1>' > dist/index.html"
   publish = "dist"
+  base = "a"
